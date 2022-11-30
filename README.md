@@ -1,2 +1,0 @@
-# proyectoIntegrador_LG
- 
