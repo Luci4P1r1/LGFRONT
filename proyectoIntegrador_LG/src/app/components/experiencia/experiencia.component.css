@@ -4,6 +4,6 @@
 div{
     background-color: pink;
 }
-h1. h3{
+h1, h3{
     display: inline;
 }
