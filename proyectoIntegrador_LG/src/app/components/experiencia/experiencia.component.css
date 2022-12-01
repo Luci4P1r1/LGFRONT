@@ -4,6 +4,13 @@
 div{
     background-color: pink;
 }
-h1, h3{
+h1, h3, .tittle{
     display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
 }
