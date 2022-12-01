@@ -1,7 +1,11 @@
 div{
     background-color: dodgerblue;
 }
-app-social{
-    float: right;
+
+#logoAP{
+    float: left;
     margin-top: 50pxs;
+}
+.redes{
+    float: right;
 }
