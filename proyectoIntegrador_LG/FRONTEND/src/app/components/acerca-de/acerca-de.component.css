@@ -1,0 +1,58 @@
+.row{
+    padding: 50px;
+}
+div{
+    background-color: pink;
+    text-align: center;
+}
+
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*etiqueta profesión*/
+#profesión{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*etiqueta acercaDeMi*/
+#acercaDeMi{
+    font-weight: bold;
+    margin-top: 5%;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*etiqueta cuerpoAcercaDeMi*/
+#cuerpoAcercaDeMi{
+    margin-top: 5%;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*estilo foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 600px;
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 600px;
+    }
+}
