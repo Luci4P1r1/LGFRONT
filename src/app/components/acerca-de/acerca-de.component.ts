@@ -13,6 +13,6 @@ export class AcercaDeComponent {
   constructor (public personaService: PersonaService) {}
   
   ngOnInit (): void {
-    this.personaService.getPersona().suscribe(data => {this.persona = data})
+    this.personaService.getPersona().suscribe(data, persona) => {this.persona = data}
   }
 }
