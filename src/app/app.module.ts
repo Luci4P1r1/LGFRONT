@@ -21,7 +21,6 @@ import { LoginComponent } from './components/login/login.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    LogoAPComponent,
     BannerComponent,
     AcercaDeComponent,
     ExperienciaComponent,
